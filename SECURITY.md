@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability, **please do not open a public issue**. Instead:
 
-1. Email security@thegeolab.net with:
+1. Email **artur@thegeolab.net** with:
    - Description of the vulnerability
    - Steps to reproduce
    - Potential impact
@@ -18,14 +18,14 @@ If you discover a security vulnerability, **please do not open a public issue**.
 
 ### Credentials Management
 
-✅ **DO:**
+**DO:**
 - Store credentials in environment variables
 - Use `.env` files (git-ignored)
 - Rotate API keys regularly
 - Use minimal permission scopes
 - Use service accounts with limited roles
 
-❌ **DON'T:**
+**DON'T:**
 - Commit `.mcp.json` with real credentials
 - Hardcode API keys in config files
 - Share credentials in issues/PRs
@@ -34,35 +34,19 @@ If you discover a security vulnerability, **please do not open a public issue**.
 
 ### Server Configuration
 
-✅ **DO:**
+**DO:**
 - Validate all inputs
 - Use HTTPS/TLS for connections
 - Implement rate limiting
 - Log security events
 - Use timeouts for network requests
 
-❌ **DON'T:**
+**DON'T:**
 - Trust user input without validation
 - Use plaintext connections
 - Allow unlimited concurrent requests
 - Expose stack traces in errors
 - Cache sensitive data unnecessarily
-
-### Database Access
-
-✅ **DO:**
-- Use connection pooling
-- Implement query timeouts
-- Use parameterized queries
-- Restrict user permissions
-- Monitor query patterns
-
-❌ **DON'T:**
-- Allow direct SQL injection
-- Use overly broad permissions
-- Run long-running queries
-- Store plaintext passwords
-- Expose database structure
 
 ## Known Issues
 
@@ -70,18 +54,10 @@ None currently documented. If you find a vulnerability, please report it securel
 
 ## Security Updates
 
-We provide security updates for the latest version. Update regularly:
-
-```bash
-npm update -g @modelcontextprotocol/*
-```
+We provide security updates for the latest version. Update regularly.
 
 Older versions may have unpatched vulnerabilities.
 
-## Dependency Scanning
-
-This repository uses automated vulnerability scanning. Dependencies are updated regularly to address CVEs.
-
 ## Questions?
 
-Contact [@TheGEO_Lab](https://x.com/TheGEO_Lab) on X or email security@thegeolab.net
+Contact [@TheGEO_Lab](https://x.com/TheGEO_Lab) on X or email artur@thegeolab.net
