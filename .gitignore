@@ -1,0 +1,52 @@
+# Credentials & Secrets
+.mcp.json
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*-sa.json
+secret*
+credentials*
+
+# API Keys
+GOOGLE_APPLICATION_CREDENTIALS
+GITHUB_PERSONAL_ACCESS_TOKEN
+GUMROAD_API_TOKEN
+FIRECRAWL_API_KEY
+LINKEDIN_SESSION
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Temporary
+*.tmp
+*.temp
+.cache/
