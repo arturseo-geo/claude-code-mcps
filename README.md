@@ -293,4 +293,4 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
-Built and maintained by **[Artur Ferreira](https://github.com/arturseo-geo)** @ **[The GEO Lab](https://thegeolab.net)**
+Built and maintained by **[Artur Ferreira](https://github.com/arturseo-geo)** · **[thegeolab.net](https://thegeolab.net)** · [MIT License](LICENSE)
